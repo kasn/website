@@ -300,7 +300,7 @@ $(document).ready(function () {
     // --- Rotate the logo
     var translateValue = "rotate(" + rotate + "deg) translateZ(0)";
 
-    $('#bigLogo').css({
+    $('#circle').css({
       '-webkit-transform':translateValue,
       '-moz-transform':   translateValue,
       '-ms-transform':    translateValue,

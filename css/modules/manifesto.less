@@ -3,7 +3,7 @@
 #manifestoContainer {
   width:100%;
   margin:0 0 20px 0;
-  height:440px;
+  height:480px;
   background-image:url("../../images/grain.png"), -webkit-radial-gradient(center top,#0098d4 360px,#00638d);
   background-image:url("../../images/grain.png"), -moz-radial-gradient(center top,#0098d4 360px,#00638d);
   background-image:url("../../images/grain.png"), -o-radial-gradient(center top,#0098d4 360px,#00638d);
@@ -14,12 +14,12 @@
 #manifestoDummy {
   width:100%;
   margin:0 0 20px 0;
-  height:440px;
+  height:408px;
   display:none;
 }
 
 #manifesto {
-  padding: 4em 0;
+  padding: 40px 0 0 0;
   color: #fff;
 }
 
@@ -27,8 +27,16 @@
   color: #fff;
 }
 
-#manifesto .logo {
-  width: 100%;
+#circle {
+  margin:-12px 0 0 -29px; // balance out the margin in the image
+  width: 417px;
+}
+
+#logo {
+  position:relative;
+  float:left;
+  top:-245px;
+  left:96px;
 }
 
 #manifesto p {
@@ -37,8 +45,8 @@
   text-align:justify;
   float:right;
 
-  font: 200 1.5em/1.5em @serif;
-  line-height:1.8em;
+  font: 200 2.0em/1.5em @serif;
+  line-height:1.7em;
 }
 
 #manifesto p em {
